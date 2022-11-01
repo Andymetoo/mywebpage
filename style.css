@@ -1,0 +1,49 @@
+.verytoppart, .secondpart {
+    background-color: #1f2937;
+    font-family: roboto, sans-serif;
+    color: #f9faf8;
+}
+
+.verytoppart {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.secondpart {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.secondpartleft {
+    display: flex;
+    width: 900px;
+    flex-direction: column;
+    flex: .4;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+
+.linktexts {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.topbutton {
+    width: 100px;
+}
+
+.mountainpicture {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+}

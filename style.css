@@ -18,15 +18,18 @@
     display: flex;
     padding: 20px;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .secondpartleft {
     display: flex;
     width: 900px;
     flex-direction: column;
-    flex: .4;
+    flex: .8;
     padding: 10px;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 
@@ -39,10 +42,16 @@
 .title {
     font-size: 48px;
     font-weight: 900;
+    align-self: flex-start;
 }
 
 .topbutton {
-    width: 100px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:#1f2937;
+    color: white;
+    border-color: #f9faf8;
 }
 
 .mountainpicture {
@@ -61,6 +70,8 @@
     text-align: center;
     color: #1f2937;
     font-weight: 800;
+    align-items: center;
+    justify-content: center;
 }
 
 .thirdpart {
@@ -70,21 +81,120 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 10px;
-    flex-direction: row;
 }
 
 .icons {
-    width: 400px;
-    border: 2px solid blue;
+    width: 800px;
+    /*border: 12px solid blue;*/
+    justify-content: space-evenly;
+    display: flex;
 }
 
 .icon {
     background-color: tomato;
+    border-radius: 10px;
     padding: 5px;
-    width: 50px;
+    gap: 10px;
+    width: auto;
+    height: 100px;
+    color: #1f2937
+}
+
+.icontexts {
+    height: 100%;
+    padding: 5px;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.icontextcontainer {
+    width: 800px;
+    /*border: 12px solid blue;*/
+    justify-content: space-evenly;
+    display: flex;
+    color:#585858;
+}
+
+.icontext {
+    padding: 10px;
+    width: auto;
     height: 50px;
     margin: 10px;
     line-height: 20px;
-    color: #1f2937
+    font-size: 12px;
+}
+
+.quotepart {
+    height: 125px;
+    display: flex;
+    background-color: #c7c7c7;
+    align-items: center;
+    justify-content: center;
+    padding: 75px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.quotewidth {
+    width: 400px;
+}
+
+.quote {
+    font-size: medium;
+    color: #5c5c5c;
+    text-align: center;
+}
+
+.quoteauthor {
+    font-size:larger;
+    color: #444444;
+    text-align: right;
+    flex: .4;
+}
+
+.middlesection {
+    height: 150px;
+    display: flex;
+    background-color: #e2e2e2;
+    align-items: center;
+    justify-content: center;
+    padding: 75px;
+}
+
+.bluebox {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #3882f6;
+    gap:30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.blueboxbutton {
+    border-radius: 10px;
+    background: #3882f6;
+    color: white;
+    border: 2px solid white;
+}
+
+.bottompart {
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 100px;
+}
+
+.calltoaction {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
